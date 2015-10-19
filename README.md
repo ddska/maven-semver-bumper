@@ -1,4 +1,5 @@
 # maven-semver-bumper
+
 Simple groovy script to bump semver major version before branching.
 
 If version is SNAPSHOT, then bumped version is SNAPSHOT also.
