@@ -2,7 +2,7 @@
 
 Simple groovy script to bump semver major version before branching.
 
-If version is SNAPSHOT, then bumped version is SNAPSHOT also.
+If version is SNAPSHOT, then bumped version is also SNAPSHOT.
   
 E.g. 
     1.2.3 -> 2.0.0
