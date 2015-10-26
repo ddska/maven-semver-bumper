@@ -17,7 +17,7 @@ public class Bumper {
     public static void main(String[] args) {
         println "Script to bump semantic versions before branching"
         println "Requirements: Maven 3.3+"
-        if (args == null || args.length == 0) {
+        if (args == null || args.length < 2) {
             println "pass 1) path to root maven pom file to bump all it's sub-modules versions"
             println "2) path to parent pom file which contains dependency management to set versions of bumped modules"
             println "In parent pom file module versions must be in <artifactId>.version format"
